@@ -4,9 +4,11 @@ We need OpenGL libraries to run these programs. Follow [this link](https://www.a
 
 #### List of Programs
 
-1. Write a program to generate a circle using Bresemham's circle drawing. User can specify inputs through keyboard/Mouse.
+1. Write a program to generate a circle using **Bresemham's circle drawing**. User can specify inputs through keyboard/Mouse.
 
 2. Use OpenGL libraries to create two windows : display a cylinder in one window and parallelepiped in second window.
-Note: Crete cylinder and parallelepiped by extruding a circle and quadrilateral respectively.
+   Note: Crete **cylinder and parallelepiped** by extruding a circle and quadrilateral respectively.
 
-3. Write a program to generate a line using bresenham's line drawing technique. Consider slopes greater than one and slopes less than one. User must be able to draw as many lines and specify inputs through keyboar/mouse.
+3. Write a program to generate a line using **Bresenham's line drawing** technique. Consider slopes greater than one and slopes less than one. User must be able to draw as many lines and specify inputs through keyboar/mouse.
+
+4. Write a program to recursively subdivide tetrahedron to form **3D sierpinski gasket**. The number of recursive steps is to be specified by the user at execution time.
