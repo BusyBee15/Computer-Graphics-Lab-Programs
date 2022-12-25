@@ -8,3 +8,5 @@ We need OpenGL libraries to run these programs. Follow [this link](https://www.a
 
 2. Use OpenGL libraries to create two windows : display a cylinder in one window and parallelepiped in second window.
 Note: Crete cylinder and parallelepiped by extruding a circle and quadrilateral respectively.
+
+3. Write a program to generate a line using bresenham's line drawing technique. Consider slopes greater than one and slopes less than one. User must be able to draw as many lines and specify inputs through keyboar/mouse.
