@@ -16,3 +16,5 @@ We need OpenGL libraries to run these programs. Follow [this link](https://www.a
 5. Write a program to create a **house** like figure and perform the following operations. <br>
    &emsp; i. **Rotate** it about a given fixed point using OpenGL transformation functions. <br>
    &emsp; ii. **Reflect** it about an axis y=m\*x+c using openGL transformaion functions.
+
+6. Design and develop a program using OpenGL to create two windows. Draw a rectangle of specified width and height by setting four colors to its corners in the first window. In the second window, draw the same **rectangle and spin** it continously. Use the double buffer concept.
