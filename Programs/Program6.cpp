@@ -28,14 +28,15 @@ void mouse(int btn, int state, int x, int y)
 
 void square()
 {
+	// color every vertex using glColor3f 
 	glBegin(GL_QUADS);
-	glColor3f(1, 0, 0);  // red for one corner 
+	glColor3f(1, 1, 0); 
 	glVertex2f(-100, 50);
-	glColor3f(0, 1, 0);  // green for one corner 
+	glColor3f(0, 1, 1);  
 	glVertex2f(100, 50);
-	glColor3f(0, 0, 1);  // blue for another 
+	glColor3f(0, 0, 0);  
 	glVertex2f(100, -50);
-	glColor3f(1, 0, 1);  // some other color for final vertex
+	glColor3f(1, 0, 1);  
 	glVertex2f(-100, -50);
 	glEnd();
 
