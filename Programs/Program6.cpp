@@ -5,8 +5,6 @@
 
 
 GLfloat spin = 0.0;  // initial rotation degree 
-int singleb, doubleb;
-
 
 void spindisplay()
 {
@@ -73,7 +71,7 @@ int main(int argc, char** argv)
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB); // GLUT_SINGLE for single buffer 
 	glutInitWindowSize(500, 500);
 	glutInitWindowPosition(0, 0);
-	singleb = glutCreateWindow("single buffer");
+	glutCreateWindow("single buffer");
 	myinit();
 	glutDisplayFunc(singleb_display);
 
@@ -82,7 +80,7 @@ int main(int argc, char** argv)
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB); // GLUT_DOUBLE for double buffer 
 	glutInitWindowSize(500, 500);
 	glutInitWindowPosition(500, 00);
-	doubleb = glutCreateWindow("double buffer");
+	glutCreateWindow("double buffer");
 	myinit();
 	glutDisplayFunc(doubleb_display);
 	glutMouseFunc(mouse);
