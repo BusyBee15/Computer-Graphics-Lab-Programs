@@ -19,4 +19,6 @@ We need OpenGL libraries to run these programs. Follow [this link](https://www.a
 
 6. Design and develop a program using OpenGL to create two windows. Draw a rectangle of specified width and height by setting four colors to its corners in the first window. In the second window, draw the same **rectangle and spin** it continously. Use the double buffer concept.
 
-7. Write a program to create a color cube and spin it using OpenGL transformations. The output must be adjusted suitably when the window is resized or moved to a new position.
+7. Write a program to create a **color cube and spin** it using OpenGL transformations. The output must be adjusted suitably when the window is resized or moved to a new position.
+
+8. Write a program to fill any given 2D polygon using **Scan-line area filling** algorithm
