@@ -21,4 +21,6 @@ We need OpenGL libraries to run these programs. Follow [this link](https://www.a
 
 7. Write a program to create a **color cube and spin** it using OpenGL transformations. The output must be adjusted suitably when the window is resized or moved to a new position.
 
-8. Write a program to fill any given 2D polygon using **Scan-line area filling** algorithm
+8. Write a program to fill any given 2D polygon using **Scan-line area filling** algorithm.
+
+9. Write a program to demonstrate the approximation of a **3D sphere** with appropriate mathematical formulations. Write the complete C program to approximate a sphere using OpenGL primitives.
