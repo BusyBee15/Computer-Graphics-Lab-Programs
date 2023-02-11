@@ -1,7 +1,7 @@
 #include <GL/glut.h>
-#include <iostream>
-#include <cstdlib>
-#include <math.h>
+#include <iostream>  // input output
+#include <cstdlib> // rand func
+#include <math.h> // sqrt func
 
 #define WINDOW_WIDTH 500
 #define WINDOW_HEIGHT 500

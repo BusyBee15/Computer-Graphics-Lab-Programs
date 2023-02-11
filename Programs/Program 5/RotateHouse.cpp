@@ -30,7 +30,7 @@ void rotate()
 	//   Tranlation(to origin) , rotation, inverse translation(back to original pos) (since pivot point is given )
 	// combined matrix 
 	// { {cos(angle), -sin(angle), Xp*(1- cos(angle)) + Yp*sin(angle)},
-	//   {cos(angle), -sin(angle), Yp*(1 - cos(angle)) - Xp* sin(angle)},
+	//   {sin(angle), cos(angle), Yp*(1 - cos(angle)) - Xp* sin(angle)},
 	//   { 0, 0, 1 } }
 	
 	GLfloat m, n;

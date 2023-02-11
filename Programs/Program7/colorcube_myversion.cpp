@@ -79,7 +79,7 @@ void display(void)
 		   if (axis == 0) {
 			   glRotatef(theta[0], 1.0, 0.0, 0.0); // along x axis
 		   }
-		   else if (axis == 0) {
+		   else if (axis == 1) {
 			   glRotatef(theta[1], 0.0, 1.0, 0.0); // along y axis
 		   }
 		   else {
